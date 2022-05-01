@@ -1,0 +1,70 @@
+---------------------------------------------------------*      ******* *     * *     * *        *    ******* **       ** *******  -----------------------------------------------------
+														 *	       *	* *	  * *     *	  *    *      *		  * *     * * *      *
+														 *         *	*  *  * *     *     *         *       *  *   *  * *      *
+														 *         *	*   * * *     *  *    *       *       *   * *   * *      * 
+														 ****** ******* *	  * ******* *       *     ******* *    *    * *******
+														 -------------------------------------------------------------------------
+														 -------------------------------------------------------------------------
+
+
+
+
+Linux Terms:-
+
+LTS- Long time support
+CLI- Command Line Interface
+GUI- Graphical user Interface
+
+
+Information about Linus:
+
+*Linux has tree structure & '/' slash is a root
+*Linus has 3 main users 1. Regular user 2. root user/super user(Admin) 3. Service user
+*There are 2 paths in Linux 1. Absolute path 2. Relative path
+	Absolute path : cd/bin/folder1 (it will start with /)
+	Relative path : cd folder1 
+	
+*We can create multiple files with same name using case sensitivity. EX: test.txt / Test.txt/ TEST.txt
+*/home 	- 	home directory for other users
+*/root 	- 	It is home directory for root user
+*/boot 	- 	It contains bootable files for linux
+*/etc 	- 	it contains all configuration files
+*/user	- 	By default software are installed in this directory.
+*/bin 	- 	It contains commands used by all users
+*/sbin	- 	It contains commands user by only root user.
+*/opt 	- 	optimal application software packages
+*/dev 	- 	Essential device files. this includes terminal devices, usb or any device attached to the system.
+
+
+Commands:
+
+pwd		- 		print working directory 
+/ 		- 		slash is a root 
+ls 		- 		you will get list or child folders
+$ 		- 		regular user
+cd		- 		Change directory
+cd.. 	- 		to get out or go back to previous folders
+mkdir	- 		make directory
+touch 	- 		will create blank file
+mv		- 		move command
+cp		- 		copy command
+ls-R 	- 		will give list of all folder and inside that folder as well (R for recursive).
+ls-a 	- 		will show hidden files
+. 		- 		will create hidden folder (ex: .test)
+history	- 		will give all commands which is used
+sudo apt install (software name)- apt will help us to install packages/softwares
+ps		- 		List all running process
+ps-a 	- 		list all background process
+kill 	- 		to close/kill any process Ex: kill PID=32716 (Pid means process id i.e 32716 so the command will be kill 32716)
+top 	- 		shows a real-time view of running processes in Linux and displays kernel-managed tasks.
+:q!		- 		to exit without saving anything from file
+:wq		-		to save and exit changes made in file
+
+-rw     -r--      r--     -> linux permission
+user    group	  others
+only
+
+- 		-> 		file
+r 		- 		read
+w 		- 		write
+
